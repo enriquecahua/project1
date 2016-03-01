@@ -33,22 +33,7 @@
         padding-tip: 0;
     }
     
-   .hoverEffect:hover {
-    border: 2px solid white;
-    -webkit-transition: border 300ms linear;
-    -moz-transition: border 300ms linear;
-    -o-transition: border 300ms linear;
-    -ms-transition: border 300ms linear;
-    transition: border 300ms linear;
-    }
-
-     .hoverEffectSelect {
-    border 5px solid white;
-    }
-    .hoverEffectSelect {
-        border 2px solid white;
-    }
-    
+   
     .title {
         font-size: 2.5em;
         text-align: center;
@@ -253,3 +238,21 @@
             margin-bottom: 2.3vh;
         }
     }
+.hoverEffect:hover {
+     
+     border: 2px solid white;
+    -webkit-transition: border 300ms linear;
+    -moz-transition: border 300ms linear;
+    -o-transition: border 300ms linear;
+    -ms-transition: border 300ms linear;
+    transition: border 300ms linear;
+    
+    }
+
+   /*  .hoverEffectSelect {
+    border 5px solid white;
+    }
+    .hoverEffectSelect {
+        border 2px solid white;
+    }
+    */
