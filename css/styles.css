@@ -4,14 +4,14 @@
         margin: 0;
         padding: 0;
     }
-    
+
     body {
         font-family: 'Roboto', sans-serif;
         color: white;
         max-height: 100%;
         background-color: #0d0d0d;
     }
-    
+
     .header {
         padding-top: 5vh;
         max-width: 1200px;
@@ -20,49 +20,49 @@
         text-align: right;
         font-size: 2.8vw;
     }
-    
+
     h1 {
         margin: 0;
         padding: 0;
         margin-bottom: 0;
         padding-bottom: 0;
     }
-    
+
     h5 {
         margin-top: 0;
         padding-tip: 0;
     }
-    
-   
+
+
     .title {
         font-size: 2.5em;
         text-align: center;
     }
-    
+
     .textwrapper {
         background: rgba(45, 46, 51, 0.2);
         width: 200px;
         min-height: 40px;
         height: 48px;
-        margin: 0;
+        margin: 5px 0px 0px 5px;
         padding: 0;
         border-radius: 5px;
         text-align: center;
         white-space: nowrap;
         overflow: hidden;
     }
-    
+
     p {
         margin: 0;
         font-size: 100%;
         color: white !important;
         margin-top: 15px;
     }
-    
+
     .box {
         min-height: 150px;
     }
-    
+
     .dark_blue {
         background-color: #2A457A;
         color: #efefef;
@@ -71,37 +71,37 @@
         background-size: cover;
         background-position: center;
     }
-    
+
     .light_blue {
         background-color: #099DD9;
     }
-    
+
     .green {
         background-color: #0C8542;
     }
-    
+
     .lime {
         background-color: rgb(179, 210, 52);
     }
-    
+
     .seafoam {
         background-color: rgb(77, 190, 161);
     }
-    
+
     .red {
         background-color: #EC1D3B;
     }
-    
+
     .orange {
         background-color: #F79420;
     }
-    
+
     .container {
         display: flex;
         flex-wrap: wrap;
         border-radius: 10px;
     }
-    
+
     .logos {
         font-size: 5vw;
         display: flex;
@@ -110,58 +110,58 @@
         margin-right: auto;
         color: white;
     }
-    
+
     .logos >a {
         width: 25%;
         text-align: center;
     }
-    
+
     .logos >a> .fa-twitter {
         width: 25%;
         text-align: center;
         color: black;
-        text-shadow: 0px 0px 94px #3366ff;
+        text-shadow: 0px 0px 94px white /*#3366ff*/;
     }
-    
+
     .logos >a > .fa-facebook {
         width: 25%;
         text-align: center;
         color: black;
-        text-shadow: 0px 0px 94px #000066;
+        text-shadow: 0px 0px 94px white /*#000066*/;
         border: white;
     }
-    
+
     .logos >a .fa-google-plus {
         width: 25%;
         text-align: center;
         color: black;
-        text-shadow: 0px 0px 94px red;
+        text-shadow: 0px 0px 94px white /*red*/;
     }
-    
+
     .logos >a > .fa-github {
         width: 25%;
         text-align: center;
         color: black;
-        text-shadow: 0px 0px 94px yellow;
+        text-shadow: 0px 0px 94px white /*yellow*/;
     }
-    
+
     .box,
     .fo {
         width: 100%;
         margin: auto;
     }
-    
+
     .fo {
         margin-top: 15px;
     }
-    
+
     @media screen and (min-width:450px) {
         .light_blue,
         .green {
             width: 50%;
         }
     }
-    
+
     @media screen and (min-width:550px) {
         .header {
             margin-bottom: 1vh;
@@ -179,7 +179,7 @@
             min-height: 220px;
         }
     }
-    
+
     @media screen and (min-width:801px) {
         .header {
             margin-bottom: 1.5vh;
@@ -220,9 +220,9 @@
         .box {
             margin-bottom: 1vh;
         }
-        
+
     } */
-    
+
     @media screen and (min-width:1150px) {
         .box {
             margin-bottom: 1.5vh;
@@ -232,23 +232,27 @@
             justify-content: space-between;
         }
     }
-    
+
     @media screen and (min-width:1200px) {
         .box {
             margin-bottom: 2.3vh;
         }
     }
+    
+
+
+/*
 .hoverEffect:hover {
-     
+
      border: 2px solid white;
     -webkit-transition: border 300ms linear;
     -moz-transition: border 300ms linear;
     -o-transition: border 300ms linear;
     -ms-transition: border 300ms linear;
     transition: border 300ms linear;
-    
-    }
 
+    }
+*/
    /*  .hoverEffectSelect {
     border 5px solid white;
     }
